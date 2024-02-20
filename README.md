@@ -1,4 +1,4 @@
-atsby sidely know as Static Site Generator(SSG)
+Gatsby sidely know as Static Site Generator(SSG)
 
 Static Site Generator
 Learn what a static site generator is and why you might choose a static site generator, such as Gatsby, over other publishing tools.

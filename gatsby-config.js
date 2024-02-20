@@ -8,5 +8,19 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+    ],
+  siteMetadata : {
+    title : 'Prateek Portfolio',
+    description : 'Personal Portfolio and Projects',
+    copyright : 'This website is personal intellectual property of Prateek',
+  }
 }
